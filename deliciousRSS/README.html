@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head profile="http://gmpg.org/xfn/11">
+ <title>flickrRSS Plugin Readme</title>
+ 
+ <style type="text/css"> 
+  body { 
+  	font: 13px/19px "Trebuchet MS", Arial, sans-serif; 
+  	margin: 30px 65px;
+  	}
+  a { 	text-decoration: none; }
+  a:hover { border-bottom: 1px solid;
+  	
+ </style>
+</head>
+
+<body>
+
+<h1>deliciousRSS Plugin Readme</h1>
+
+<p>This plugin for WordPress allows you to display del.icio.us RSS feeds on your weblog. It's easy to setup and configure via an options panel.</p>
+
+<h2>Installation</h2>
+<ol>
+ <li>Unzip the package in your plugins directory (wp-content/plugins/). Keep the name of the zip file.</li>
+ <li>Activate the plugin</li> 
+ <li>Configure your settings via the panel in Options &rarr; deliciousRSS</li>
+ <li>Add <code>&lt;?php get_deliciousrss(); ?&gt;</code> somewhere in your templates</li>
+</ol>
+
+
+<h2>Advanced</h2>
+
+<p>The plugin also supports a number of parameters, allowing you to have multiple instances across your site.</p>
+
+<ol>
+ <li><code>$userid</code> - specify a del.icio.us user id r</li>
+ <li><code>$num_items</code> - how many links you want to appear</li>
+ <li><code>$tags</code> - a comma separated list of tags<em>papers, toread</em></li>
+ <li><code>$before_link</code> - html appearing before each photo</li>
+ <li><code>$after_link</code> - html appearing after each photo</li>
+</ol>
+
+<h3>Example 1</h3>
+
+<p><code>&lt;?php get_deliciousrss( "rogersm", 5, "ai, development" ); ?&gt;</code><p>
+<p>This would show the 5 most recent links for the rogersm user tagged with ai and development.</p>
+
+<h3>Example 2</h3>
+
+<p><code>&lt;?php get_deliciousrss( "rogersm", 10, "blogs", "&raquo;&nbsp;", "&lt;br/&gt;"); ?&gt;</code></p>
+
+<p>This would show the 10 most recent urls from the blogs category of user rogersm adding &raquo; in front of them and a break at the end.</p>
+
+<h2>Hemingway theme support</h2>
+With the plugin is included a file delicious_rss.php for integrating the plugin with <a href="http://warpspire.com/hemingway/">Hemingway's'</a> Bottombar. Drop it in wp-content/themes/hemingway/blocks/ and activate it in Presentation &rarr; Hemingway Options.
+
+<h2>Feedback and Support</h2>
+
+<p>Visit the <a href="http://rogersm.net/wp/deliciousrss/">Delicious RSS page</a> for help getting the plugin working. I'll do my best to respond, but sometimes I'm slow.</p>
+
+<p>If you're having huge issues, you can try contacting me directly.</p>
+
+<hr/>
+
+<h3>Plugin History</h3>
+
+<p><strong>Latest Release:</strong> January 7, 2008</p>
+
+<ul>
+ <li>1.0 - Initial release for Wordpress 2.3.x</li>
+</ul>
+
+</body>
+</html>
