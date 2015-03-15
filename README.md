@@ -38,7 +38,7 @@ With the plugin is included a file delicious_rss.php for integrating the plugin 
 
 ## Feedback and Support
 
-Visit the [Delicious RSS page](http://rogersm.net/wp/deliciousrss/) for help getting the plugin working. I'll do my best to respond, but sometimes I'm slow.
+Visit the [Delicious RSS page](https://github.com/rogersm/wordpress-delicious-rss) for help getting the plugin working. I'll do my best to respond, but sometimes I'm slow.
 
 If you're having huge issues, you can try contacting me directly.
 
