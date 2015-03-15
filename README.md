@@ -49,3 +49,4 @@ If you're having huge issues, you can try contacting me directly.
 **Latest Release:** January 7, 2008
 
 *   1.0 - Initial release for Wordpress 2.3.x
+*   1.0 - Same code working for Wordpress 4.1.1
